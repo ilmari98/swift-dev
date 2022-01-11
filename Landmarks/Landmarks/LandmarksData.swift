@@ -1,0 +1,4 @@
+//  LandmarksData.swift
+
+import Foundation
+
