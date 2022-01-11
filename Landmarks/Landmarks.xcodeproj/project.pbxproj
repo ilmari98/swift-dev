@@ -15,7 +15,6 @@
 		F6339FFB278D7CFB0039FBE4 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6339FFA278D7CFB0039FBE4 /* LandmarksUITests.swift */; };
 		F6339FFD278D7CFB0039FBE4 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6339FFC278D7CFB0039FBE4 /* LandmarksUITestsLaunchTests.swift */; };
 		F633A00A278D92190039FBE4 /* LandmarksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633A009278D92190039FBE4 /* LandmarksData.swift */; };
-		F633A00C278D9C360039FBE4 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F633A00B278D9C360039FBE4 /* turtlerock@2x.jpg */; };
 		F633A00E278D9DC40039FBE4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633A00D278D9DC40039FBE4 /* CircleImage.swift */; };
 		F633A010278D9EC40039FBE4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633A00F278D9EC40039FBE4 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		F6339FFA278D7CFB0039FBE4 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		F6339FFC278D7CFB0039FBE4 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F633A009278D92190039FBE4 /* LandmarksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksData.swift; sourceTree = "<group>"; };
-		F633A00B278D9C360039FBE4 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "turtlerock@2x.jpg"; path = "../../../../Downloads/CreatingAndCombiningViews/Resources/turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		F633A00D278D9DC40039FBE4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F633A00F278D9EC40039FBE4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +106,6 @@
 				F633A00F278D9EC40039FBE4 /* MapView.swift */,
 				F633A009278D92190039FBE4 /* LandmarksData.swift */,
 				F6339FE3278D7CFB0039FBE4 /* Assets.xcassets */,
-				F633A00B278D9C360039FBE4 /* turtlerock@2x.jpg */,
 				F6339FE5278D7CFB0039FBE4 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -243,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F633A00C278D9C360039FBE4 /* turtlerock@2x.jpg in Resources */,
 				F6339FE7278D7CFB0039FBE4 /* Preview Assets.xcassets in Resources */,
 				F6339FE4278D7CFB0039FBE4 /* Assets.xcassets in Resources */,
 			);
