@@ -1,12 +1,17 @@
 import SwiftUI
+import MapKit
 
 struct LandmarkDetail: View {
+    @State private var showingAlert = false
     @EnvironmentObject var modelData: ModelData
+    @Environment(\.presentationMode) var presentationMode
     var landmark: Landmark
     
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }
+    
+        
 
     var body: some View {
         ScrollView {

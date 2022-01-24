@@ -22,9 +22,20 @@ struct LandmarkList: View {
                         LandmarkRow(landmark: landmark)
                 }
             }
+                .onMove(perform: move)
+                .onDelete(perform: delete)
         }
         .navigationTitle("Landmarks")
+        .navigationBarItems(trailing: EditButton())
         }
+    }
+    
+    func delete(at offsets: IndexSet) {
+        modelData.landmarks.remove(atOffsets: offsets)
+    }
+    
+    func move (from source: IndexSet, to destination: Int) {
+        modelData.landmarks.move(fromOffsets: source, toOffset: destination)
     }
 }
 
