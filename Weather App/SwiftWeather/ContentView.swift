@@ -13,7 +13,12 @@ struct ContentView: View {
     @State var city: String = ""
     
     var body: some View {
+        
         VStack() {
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
             TextField("Enter A City Name", text: $city, onCommit: {
                 self.weather.fetch(by: self.city)
                 
@@ -26,7 +31,6 @@ struct ContentView: View {
     }
     
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
