@@ -30,6 +30,7 @@ struct ContentView: View {
     () -> ActionSheet in ActionSheet(title: Text("Select Image"), message: Text("Please select an image from the image gallery or use the camera"), buttons: [
         ActionSheet.Button.default(Text("Camera"), action: {
             self.sourceType = 0
+            self.showImagePicker.toggle()
             
         }),
         ActionSheet.Button.default(Text("Photo Gallery"), action: {
